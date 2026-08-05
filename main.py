@@ -8,7 +8,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 # ضع هنا معرف (ID) الروم الصوتي الخاص بك
-VOICE_CHANNEL_ID = 123456789012345678  
+VOICE_CHANNEL_ID = 1533938944654446682  
 
 @bot.event
 async def on_ready():
